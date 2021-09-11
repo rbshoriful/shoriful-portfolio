@@ -1,0 +1,61 @@
+.about-bg{
+    background: coral;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.about{
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex;
+}
+.image{
+    width: 50%;
+}
+.images img{
+    width: 50%
+}
+.contents h1{
+    color: crimson;
+    margin: 10px;
+}
+.contents p{
+    color: white;
+    margin: 10px 50px 0px 10px;
+}
+.skills{
+    width: 40%;
+}
+.myScills{
+    padding: 20px 0px;
+}
+.myScills h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    position: relative;
+}
+.myScills h2::before{
+    position: absolute;
+    top: 35px;
+    content: '';
+    width: 20%;
+    height: 3px;
+    background: red;
+}
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.list-items li{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: darkcyan;
+    list-style-type: none;
+    margin: 5px;
+    color: white;
+    text-transform: capitalize;
+}

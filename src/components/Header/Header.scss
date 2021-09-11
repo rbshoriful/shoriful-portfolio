@@ -1,0 +1,30 @@
+.header-bg{
+  background:  #000000;
+  overflow: hidden;
+}
+.nav-bg{
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+.header{
+  display: flex;
+  align-items: center;
+  line-height: 50px;
+  justify-content: space-between;
+}
+.menu{
+  display: flex;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  transition: .5s;
+}
+
+.menu a:hover{
+  background: darkcyan;
+  color: white;
+}
