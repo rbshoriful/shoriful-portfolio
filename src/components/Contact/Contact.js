@@ -16,7 +16,7 @@ const Contact = () => {
             </div>  
             
             <footer className="footer">
-                <p>&copy; Design By - Reba Khatun</p>
+                <p>&copy; Design By - Md. Shoriful Islam</p>
             </footer>          
         </div>
     );

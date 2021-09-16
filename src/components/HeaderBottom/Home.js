@@ -1,5 +1,5 @@
 import React from 'react';
-import draw from '../../images/wk12.jpg';
+import draw from '../../images/rbshoriful.png';
 import './Home.scss';
 import { Link } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ const home = () => {
             <section className="home">
                 <div className="content">
                     <h5>I'm a Web Developer</h5>
-                    <h1>Mst. Reba Khatun</h1>
+                    <h1>Md. Shoriful Islam</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt asperiores accusamus ut non blanditiis, laborum maiores magni corrupti illo laboriosam cumque veritatis reiciendis perferendis quisquam! Quas harum excepturi facere nulla.</p>
                     <Link to="/about"><button className="btn btn-primary m-1">About</button></Link>
                     <Link to="/contact"><button className="btn btn-primary m-1">Teacth Me</button></Link>
@@ -19,7 +19,7 @@ const home = () => {
                 </div>
             </section>
             <footer className="footer">
-                <p>&copy; Design By - Reba Khatun</p>
+                <p>&copy; Design By - Md. Shoriful Islam</p>
             </footer>
         </div>
     );

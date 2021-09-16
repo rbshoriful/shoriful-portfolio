@@ -1,4 +1,12 @@
 .work-detail{
     display: inline-block;
     margin: 10px;
+    animation-name: work;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes work {
+    from {top:-500px}
+    to {top: 0px}
 }

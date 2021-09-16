@@ -1,5 +1,5 @@
 import React from 'react';
-import rbshoriful from '../../images/wk9.jpg';
+import rbshoriful from '../../images/shoriful.png';
 import './About.scss';
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
                          <img src={rbshoriful} alt="" />
                     </div>
                     <div className="contents">
-                        <h1>Mst. Reba Khatun</h1>
+                        <h1>Md. Shoriful Islam</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nam possimus mollitia explicabo nesciunt dolore atque repellat suscipit quod, optio ullam obcaecati a est facere voluptatem debitis. Velit, veritatis quibusdam?</p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
             </section>
             <footer className="footer">
-                <p>&copy; Design By - Reba Khatun</p>
+                <p>&copy; Design By - Md. Shoriful Islam</p>
             </footer>
         </div>
     );
